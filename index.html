@@ -11,12 +11,25 @@
     </head>
     <body>
         <header>
+            <div id="Espace-Flocon-1" class="espace-flocon"></div>
             <h1>Parallax on the montains</h1>
-        
-        
         </header>
         <section class="ciel">
-        
+            <div id="Espace-Flocon-2" class="espace-flocon">
+            </div>
+            <div class="rellax" data-rellax-speed="-4">
+                <h2>I'm slow moving</h2>I
+            </div>
+            <div id="Espace-Flocon-3" class="espace-flocon">
+            </div>
+            <div class="rellax">
+                <h2>I'm that default chill speed</h2>
+            </div>
+            <div id="Espace-Flocon-4" class="espace-flocon">
+            </div>
+            <div class="rellax" data-rellax-speed="5">
+                <h2>I'm super fast moving</h2>
+            </div>
         
         
         </section>
@@ -35,6 +48,17 @@
         <footer>
         Photo by Ian Keefe on Unsplash
         </footer>
+        
+        <!-- Javascript -->
+        <script src="js/script.js"></script>
+        <script src="js/parallax.js"></script>
+        <script>
+            var rellax = new Rellax('.rellax', {
+                callback: function(position) {
+                    console.log(position);
+                }
+            });
+        </script>
     </body>
 
 </html>

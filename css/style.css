@@ -8,13 +8,27 @@ body {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     z-index: -100;
-
+    text-align: center;
 }
 
 header {
-    height: 500px;
+    height: 100px;
 }
 
 section {
-    height: 500px;
+    height: 650px;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+
+.flocon {
+    width: 2px;
+    height: 2px;
+    border: 1px dashed gray;
+    border-radius: 100%;
+    background-color: #e8e7e7
 }
